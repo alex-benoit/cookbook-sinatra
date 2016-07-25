@@ -11,6 +11,7 @@ configure :development do
 end
 
 get '/' do
+
   @usernames = [ 'ssaunier', 'Papillard' ]
   erb :index
 end
